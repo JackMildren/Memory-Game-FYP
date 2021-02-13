@@ -1,0 +1,21 @@
+{
+  "name": "Memory_Game",
+  "description": "PLACEHOLDER",
+  "version": "0.0.1",
+  "main": "app.js",
+
+  "dependencies": {
+    "html": "^1.0.0",
+    "nodemon": "^1.18.10",
+    "path": "^0.12.7",
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackMildren/Memory-Game-FYP"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  }
+}
