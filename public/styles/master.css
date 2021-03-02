@@ -1,0 +1,52 @@
+.body {
+    margin-top: -1px;
+    padding: 10px 10px;
+    border: 10px solid lightblue;
+
+    width: 95%;
+    height: 90%;
+    min-width:600px;
+    min-height:600px;
+
+    background-color: lightblue;
+}
+
+.nav_div {
+    overflow: hidden;
+    background-color: lightblue;
+    border-color: black;
+}
+
+.nav.collapse {
+    display: block!important;
+}
+
+.nav_div a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    margin-right: 5px;
+    text-decoration: none;
+    font-size: 17px;
+
+    border-color: lightblue;
+    border-top: solid thin;
+    border-left: solid thin;
+    border-right: solid thin;
+}
+
+.nav_div a:hover {
+    background-color: lightblue;
+    color: black;
+    border-color: lightblue;
+}
+
+.nav_div a.active {
+    background-color: white;
+    border-color: black;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
